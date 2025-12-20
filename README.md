@@ -16,7 +16,11 @@
 
 ###
 
-<p align="left">🚀 Currently building: Sanjeevani 2.0 a healthcare management platform with appointment booking, SOS alerts, and medical records.<br><br>🧩 Projects: Developed complete web applications like Sanjeevani and DappRush Studios, handling UI design, frontend development, and overall project structure.<br><br>🛠️ Tech focus: Full-stack web development, responsive UI, API integration, and database-driven systems.<br><br>🏆 Hackathons & Activities: Participated in multiple hackathons and technical events, gaining experience in teamwork and rapid development.<br><br>📚 Learning: Machine learning fundamentals, web technologies, and software engineering best practices.<br><br>🤝 Communities: Active contributor and promoted associate in college technical clubs.<br><br>⚡ Fun fact: I enjoy building creative tech projects and refining user experiences.</p>
+<p align="left">🚀 Currently building: Sanjeevani 2.0 a healthcare management platform with appointment booking, SOS alerts, and medical records.<br><br>🧩 Projects: Developed complete web applications like Sanjeevani and DappRush Studios, handling UI design, frontend development, and overall project structure.<br><br>🛠️ Tech focus: Full-stack web development, responsive UI, API integration, and database-driven systems.<br><br>🏆 Hackathons & Activities: Participated in multiple hackathons and technical events, gaining experience in teamwork and rapid development.<br><br>📚 Learning: Machine learning fundamentals, web technologies, and software engineering best practices.<br><br>🤝 Communities: Active contributor and promoted associate in college technical clubs.<br><br>⚡ Fun fact: I enjoy building creative tech projects and refining user experiences.
+
+https://my-portfolio-self-mu-94.vercel.app/
+
+</p>
 
 ###
 
