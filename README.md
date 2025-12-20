@@ -39,6 +39,6 @@
 
 ###
 
-<p align="left">Email: codrishiriengs@gmail.com<br><br>Phone: +91 9060442752<br><br>LinkedIn: https://www.linkedin.com/in/rishi122005/<br><br>Thanks for visiting! If you’re interested in collaborating on projects, discussing ideas, or building something meaningful together, feel free to reach out. Let’s connect 🚀</p>
+<p align="left">Email: codrishiriengs@gmail.com<br><br>LinkedIn: https://www.linkedin.com/in/rishi122005/<br><br>Thanks for visiting! If you’re interested in collaborating on projects, discussing ideas, or building something meaningful together, feel free to reach out. Let’s connect 🚀</p>
 
 
