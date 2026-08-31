@@ -27,7 +27,7 @@ jobs:
           card: stats
           options: username=Rishi122005&show_icons=true&hide_border=true&theme=dark
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Generate Top Languages
         uses: readme-tools/github-readme-stats-action@v1
