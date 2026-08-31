@@ -97,8 +97,6 @@ user experiences.
 
 <br>
 
-<h2 align="left">🎮 GitHub Arcade</h2>
-
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/Rishi122005/Rishi122005/output/pacman-contribution-graph-dark.svg"
