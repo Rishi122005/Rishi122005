@@ -28,7 +28,7 @@
 
 ###
 
-<p align="left">Languages: Java, Python, C++, C, JavaScript, TypeScript, SQL<br>Frameworks & Platforms: React, Node.js, Express, Tailwind CSS, AWS (Basics), Git, GitHub<br>Web & Databases: REST APIs, MySQL, MongoDB, HTML, CSS<br>Data Science / ML: Python, NumPy, Pandas, Machine Learning Fundamentals<br>Certifications: NPTEL – Machine Learning | Web Development Certification | Programming in C / C++</p>
+<p align="left">Languages: Java, Go , Python, C++, C, JavaScript, TypeScript, SQL<br>Frameworks & Platforms: React, Node.js, Express, Tailwind CSS, AWS (Basics), Git, GitHub<br>Web & Databases: REST APIs, MySQL, MongoDB, HTML, CSS<br>Data Science / ML: Python, NumPy, Pandas, Machine Learning Fundamentals<br>Certifications: NPTEL – Machine Learning | Web Development Certification | Programming in C / C++</p>
 
 ###
 
