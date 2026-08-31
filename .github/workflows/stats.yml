@@ -46,4 +46,6 @@ jobs:
 
           git commit -m "Update GitHub profile stats" || exit 0
 
+          git pull --rebase origin main
+
           git push
