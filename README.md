@@ -97,7 +97,6 @@ user experiences.
 
 <br>
 
-<h2 align="left">GitHub Contribution Snake</h2>
 
 <p align="center">
   <img
