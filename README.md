@@ -77,23 +77,52 @@ user experiences.
   Programming in C / C++
 </p>
 
-<h2 align="left">GitHub Statistics</h2>
+name: GitHub Profile Stats
 
-<div align="center">
+on:
+  schedule:
+    - cron: "0 0 * * *"
 
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Rishi122005&show_icons=true&hide_border=true&theme=dark&rank_icon=github&include_all_commits=true"
-    height="170"
-    alt="GitHub statistics"
-  />
+  workflow_dispatch:
 
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishi122005&layout=compact&langs_count=8&hide_border=true&theme=dark"
-    height="170"
-    alt="Most used languages"
-  />
+  push:
+    branches:
+      - main
 
-</div>
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate GitHub Stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&theme=dark
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=dark
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+
+          git add profile/*.svg
+
+          git commit -m "Update GitHub profile stats" || exit 0
+
+          git push
 
 <br>
 
