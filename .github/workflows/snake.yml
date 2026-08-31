@@ -1,4 +1,4 @@
-name: Generate GitHub Snake
+name: Generate Pac-Man Contribution Graph
 
 on:
   schedule:
@@ -20,15 +20,15 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate light and dark snake
-        uses: Platane/snk/svg-only@v3
+      - name: Generate Pac-Man
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=%2300ff66&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
-            dist/github-snake-dark.svg?color_snake=%2300ff66&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
+          github_user_name: Rishi122005
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
+          player_style: aggressive
 
-      - name: Push snake to output branch
+      - name: Publish Pac-Man
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
