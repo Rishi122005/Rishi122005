@@ -96,13 +96,25 @@ user experiences.
 </div>
 
 <br>
-
+<h2 align="left">🎮 GitHub Arcade</h2>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/Rishi122005/Rishi122005/output/github-snake-dark.svg"
-    alt="GitHub Contribution Snake"
-  />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Rishi122005/Rishi122005/output/pacman-contribution-graph-dark.svg"
+    />
+
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Rishi122005/Rishi122005/output/pacman-contribution-graph.svg"
+    />
+
+    <img
+      src="https://raw.githubusercontent.com/Rishi122005/Rishi122005/output/pacman-contribution-graph-dark.svg"
+      alt="Pac-Man contribution animation"
+    />
+  </picture>
 </p>
 
 <h2 align="left">Connect With Me</h2>
