@@ -58,71 +58,42 @@ user experiences.
 <p align="left">
   <b>Languages:</b>
   Java, Go, Python, C++, C, JavaScript, TypeScript, SQL
-  <br>
+  <br><br>
 
   <b>Frameworks & Platforms:</b>
   React, Node.js, Express, Tailwind CSS, AWS (Basics), Git, GitHub
-  <br>
+  <br><br>
 
   <b>Web & Databases:</b>
   REST APIs, MySQL, MongoDB, HTML, CSS
-  <br>
+  <br><br>
 
   <b>Data Science / ML:</b>
   Python, NumPy, Pandas, Machine Learning Fundamentals
-  <br>
+  <br><br>
 
   <b>Certifications:</b>
   NPTEL – Machine Learning | Web Development Certification |
   Programming in C / C++
 </p>
 
-name: GitHub Profile Stats
+<h2 align="left">GitHub Statistics</h2>
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
+<div align="center">
 
-  workflow_dispatch:
+  <img
+    src="./profile/stats.svg"
+    height="170"
+    alt="GitHub statistics"
+  />
 
-  push:
-    branches:
-      - main
+  <img
+    src="./profile/top-langs.svg"
+    height="170"
+    alt="Most used languages"
+  />
 
-jobs:
-  stats:
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
-    steps:
-      - name: Generate GitHub Stats
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&theme=dark
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate Top Languages
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=dark
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit generated cards
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-
-          git add profile/*.svg
-
-          git commit -m "Update GitHub profile stats" || exit 0
-
-          git push
+</div>
 
 <br>
 
@@ -131,6 +102,7 @@ jobs:
 <div align="center">
 
   <picture>
+
     <source
       media="(prefers-color-scheme: dark)"
       srcset="https://raw.githubusercontent.com/Rishi122005/Rishi122005/output/github-snake-dark.svg"
@@ -142,9 +114,10 @@ jobs:
     />
 
     <img
-      alt="GitHub contribution snake"
       src="https://raw.githubusercontent.com/Rishi122005/Rishi122005/output/github-snake.svg"
+      alt="GitHub contribution snake"
     />
+
   </picture>
 
 </div>
@@ -166,7 +139,7 @@ jobs:
 
   🌐 <b>Portfolio:</b>
   <a href="https://portfolio-beta-nine-eaus9jwxk6.vercel.app/">
-    portfolio
+    Visit my portfolio
   </a>
 </p>
 
